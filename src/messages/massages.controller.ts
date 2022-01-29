@@ -6,7 +6,6 @@ import {
   Param,
   NotFoundException,
 } from '@nestjs/common';
-import { throwError } from 'rxjs';
 import { createMessageDto } from './dtos/create-messages.dto';
 import { MassagesService } from './messages.service';
 
